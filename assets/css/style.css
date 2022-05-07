@@ -216,21 +216,24 @@ section {
      max-width: 100%;
  }
 /* Trainers Section Style */
+.trainers {
+    width: 100%;
+    margin: 0 auto;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
 .trainer {
-    overflow: auto;
-    width: 900px; 
-    margin: 0 auto 30px auto;
+    margin: 20px;
+    flex: 1;
     background: #024e76;
     color: #fce138;
 }
 .trainer img {
-    width: 35%;
-    float: left;
+    width: 100%;
 }
 .trainer-bio {
-    padding: 35px;
-    float: left;
-    width: 65%; 
+    padding: 25px; 
 }
 .trainer-bio h3 {
     font-size: 28px;
