@@ -155,7 +155,18 @@ section {
 
 /* What you do section */
 .steps {
-    background: #fce138;
+    background-color: #fce138;
+}
+
+.step {
+    margin: 50px auto;
+    padding-bottom: 50px;
+    width: 80%;
+    border-bottom: 1px solid #39a6b2;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: space-between;
 }
 
 .section-title {
@@ -179,8 +190,15 @@ section {
 .step h3 {
     color: #024e76;
     font-size: 46px;
+    flex: 1 30%;
 }
-.steps p {
+.step-info {
+    flex: 2 70%;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+}
+.step-text p {
     color: #39a6b2;
     font-size: 18px;
 }
@@ -191,9 +209,6 @@ section {
 }
 
 /* Trainers Section Style */
-.trainers {
-    
-}
 .trainer {
     overflow: auto;
     width: 900px; 
@@ -250,7 +265,6 @@ section {
 .contact-info a {
     color: #fce138;
 }
-.contact-info p, 
 .contact-info address {
     margin: 20px 0;
     line-height: 1.5;
